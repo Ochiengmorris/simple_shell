@@ -55,30 +55,25 @@ You can try our shell by following these steps:
 clone our repository using this command.
 ````
 git clone https://github.com/Ochiengmorris/simple_shell.git
-
 ````
 
 > **Step 2:** Change directory to simple_shell:
 ````
 cd simple_shell
-
 ````
 > **Step 3:** Here is how to compile the c files:
 ````
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
-
 ````
 > **Step 4:** Go on and run the shell
 ````
 ./hsh
-
 ````
 **Exiting the shell**
 When you want to exit the shell, you can use one of the following methods:
 > **1: Type the command "exit"**
 ````
 exit
-
 ````
 > **2: Press on Ctrl + D**
 
@@ -89,8 +84,7 @@ ubunto@ubuntu:~/Johnmorris/simple_shell$ ./hsh
 0__0$ echo HI, my name is John.
 HI, my name is John
 0__0$ /bin/ls
-README.md  line.c  shell2.c  main.h
-trial.c  hsh
+README.md  line.c  shell2.c  main.h trial.c  hsh
 0__0$ ^C
 0__0$ exit
 ubunto@ubuntu:~/Johnmorris/simple_shell$
