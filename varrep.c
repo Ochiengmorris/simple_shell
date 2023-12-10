@@ -181,3 +181,4 @@ void envc(varr **h, char *in, data_group *d)
 
 	varadd(h, j, NULL, 0);
 }
+
